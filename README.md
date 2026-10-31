@@ -1,4 +1,4 @@
-# 🚗 Driver Drowsiness Detection using YOLOv5  
+#  Driver Drowsiness Detection using YOLOv5  
 ### Real-Time Driver Safety Monitoring System (Computer Vision Project)
 
 This project demonstrates **driver drowsiness detection in real time** using the YOLOv5 object detection framework.  
