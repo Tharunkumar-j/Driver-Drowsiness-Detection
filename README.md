@@ -1,4 +1,4 @@
-#  Driver Drowsiness Detection using YOLOv5  
+# 🚗 Driver Drowsiness Detection using YOLOv5  
 ### Real-Time Driver Safety Monitoring System (Computer Vision Project)
 
 This project demonstrates **driver drowsiness detection in real time** using the YOLOv5 object detection framework.  
@@ -72,7 +72,7 @@ It uses **YOLOv5**, a fast and accurate deep learning model for object detection
 ---
 
 ## 📁 Project Structure
-
+```
 Driver-Drowsiness-Detection-using_yolov5/
 │── MiniProject.ipynb # Main notebook
 │── README.md # Documentation
@@ -90,7 +90,7 @@ Driver-Drowsiness-Detection-using_yolov5/
 │
 └── screenshots/
 └── demo.png # Sample result
-
+```
 
 ---
 
@@ -126,68 +126,72 @@ Dataset created/collected using:
 ```bash
 git clone https://github.com/SuhasRock007/Driver-Drowsiness-Detection-using_yolov5.git
 cd Driver-Drowsiness-Detection-using_yolov5
+```
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
+```
 pip install -r requirements.txt
+```
 
-3️⃣ Download YOLOv5
+### 3️⃣ Download YOLOv5
+```
 git clone https://github.com/ultralytics/yolov5
+```
 
-4️⃣ Add trained weights
-
-Place them in:
-
+### 4️⃣ Add trained weights
+- Place them in:
+```
 models/best.pt
+```
 
-▶️ Running the Project
-Open the Notebook
+---
+## ▶️ Running the Project
+
+### Open the Notebook
+```
 jupyter notebook
+```
 
-
-Open:
-
+### Open:
+```
 MiniProject.ipynb
+```
 
-
-Run all cells.
-
-Webcam / Video Options
+### Run all cells.
+- Webcam / Video Options
+```
 cap = cv2.VideoCapture(0)             # default webcam
 cap = cv2.VideoCapture(1)             # external webcam
 cap = cv2.VideoCapture("sample_videos/test.mp4")  # video file
+```
 
-📊 Results
+---
+## 📊 Results
 
-Bounding boxes on detected features
+- Bounding boxes on detected features
+- Labels such as closed_eyes, yawn, distracted
+- Real-time video output
 
-Labels such as closed_eyes, yawn, distracted
+---
 
-Real-time video output
+## 🚀 Future Improvements
 
-🚀 Future Improvements
+- Add alert system (buzzer / audio warning)
+- Convert to mobile app
+- Flask or FastAPI deployment
+- Jetson Nano / Raspberry Pi real-time deployment
+- Train with larger dataset
+- Explore YOLOv8 / transformer-based detectors
 
-Add alert system (buzzer / audio warning)
+---
 
-Convert to mobile app
+## 📚 Credits / References
 
-Flask or FastAPI deployment
+- This project was implemented for learning purposes with guidance from:
+- YOLOv5 official repository
+- YouTube tutorials
+- Roboflow resources
+- OpenCV documentation
+- PyTorch documentation
 
-Jetson Nano / Raspberry Pi real-time deployment
-
-Train with larger dataset
-
-Explore YOLOv8 / transformer-based detectors
-
-📚 Credits / References
-
-This project was implemented for learning purposes with guidance from:
-
-YOLOv5 official repository
-
-YouTube tutorials
-
-Roboflow resources
-
-OpenCV documentation
-
-PyTorch documentation
+---
